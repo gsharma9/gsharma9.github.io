@@ -1,0 +1,213 @@
+/*
+	CLEAR FIX SOLUTION
+*/
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+    padding: 0 0 30px 0;
+}
+html
+{
+	z-index: -1;
+}
+
+header
+{
+	background-color: #13739d;   
+}
+
+body
+{
+
+}
+
+.content{
+	width:820px;
+	margin: 10px auto 10px auto;
+	background-color: #2a2c2b;
+}
+h1, h2, p
+{
+	font-family: Calibri, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding: 12px 0px;
+	color: #777;
+}
+
+
+ul
+{
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	color: #51a7b7;
+}
+.section01
+{
+	border-top: 2px solid #131313;
+}
+
+.imagesBackground img
+{
+	border: 2px solid #131313;
+	margin: 24px 25px 0 21px;
+	padding: 0 0 0 0;
+	display: block;
+}
+
+.li01, .li02, .li03, .li04, .li05
+{
+	float: right;
+}
+.li01
+{
+	margin: -18px 225px 0px 0px;
+}
+.li02
+{
+	margin: -18px 102px 0px 0px;
+}
+.li03
+{
+	margin: -18px 12px 0px 0px;
+}
+.li04
+{
+	margin:-119px 13px 0px 0px;
+	color:#ffffff;
+}
+.li05
+{
+	margin:-101px 145px 0px 0px;
+	color: #ffffff;
+}
+
+.gameName{
+	color: #3da7b7;
+	padding: 0;
+	font-size: 18px;
+	text-align: left;
+	margin: 2px 0 0 30px;
+	font-weight: bold;
+}
+
+.vertialLine{
+	border-bottom: solid #131313;
+	margin: -44px 26px -6px 23px;
+}
+
+.summaryLine
+{
+	border-bottom: solid #131313;
+	margin: -63px 26px -6px 23px;
+}
+
+.head, .topic01, .topic02, .head2, .topic03, .topic04, .topic05
+{
+	background-color: #2a2c2b;
+	float: left;
+}
+.head, .head2
+{
+	width: 856px;
+}
+.topic01
+{
+	margin: 24px 23px 24px 25px;
+	width: 368px;
+	height: 414px;
+}
+.topic02
+{
+	margin: 51px 0px;
+	width: 368px;
+	height: 414px;
+}
+.head2
+{
+	height: 414px;
+}
+.topic03
+{
+	margin: 24px 24px 0px 0px;
+	width: 266.67px;
+	height: 266.67px;
+}
+.topic04
+{
+	margin: 24px 24px 0px 0px;
+	width: 266.69px;
+	height: 266.67px;
+}
+.topic05
+{
+	margin-top: 24px;
+	width: 266.67px;
+	height: 266.67px;
+}
+
+.gameContent
+{
+	color: #3da7b7;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+.gameContentSecond
+{
+	color: #3da7b7;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+	margin: -16px 0 0 0;
+	font-weight: bold;
+}
+.description
+{
+	font-family: Calibri, sans-serif;
+	font-size: 14px;
+	text-align: left;
+	padding: 25px 33px;
+	color: #777;
+}
+
+img:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+a:hover{
+	color: white;
+}
+
+a{
+		text-decoration: none;
+		color: #51a7b7;
+}
+.imageAdjustments{
+	margin: 0 0 10px 0;
+}
+
+.disabled{
+  pointer-events: none;
+}
+
+.resume{
+    margin: -85px 0 0 629px;
+    padding: 3px 0 32px 0;
+}
